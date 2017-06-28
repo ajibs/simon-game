@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test Website</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <h3 id="wrong-move" class="hide-message">Wrong Move! Try again</h3>
+        <h3 id="victory" class="hide-message">Victory!, you have conquered the game. Starting a new one...</h3>
+        <div class="background-tile">
+            <div id="red" class="tile red" onclick="userMove('red')">
+            </div>
+            <div id="blue" class="tile blue" onclick="userMove('blue')">
+            </div>
+            <div id="yellow" class="tile yellow" onclick="userMove('yellow')">
+            </div>
+            <div id="green" class="tile green" onclick="userMove('green')">
+            </div>
+            <!-- inner circle with smaller tiles to get the smaller archs-->
+            <div class="container">
+                <div class="wrapper">
+                    <div class="counter">
+                        <span id="count">--</span>
+                    </div>
+                    <span class="labels">count</span>
+                </div>
+                <div class="wrapper">
+                    <button id="start" class="buttons"  onclick="newGame()"></button>
+                    <span class="labels">start</span>
+                </div>
+                <div class="wrapper">
+                    <button id="strict" class="buttons" onclick="toggleStrict()"></button>
+                    <span class="labels">strict</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
