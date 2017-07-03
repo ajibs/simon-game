@@ -25,7 +25,7 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 ## Result
 
-You can view the live version the app on: https://ajibs.github.io/simon-game/
+You can view the live version of the app on: https://ajibs.github.io/simon-game/
 
 ## Notes
 
