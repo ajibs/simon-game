@@ -20,7 +20,7 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 * User Story: I can play in strict mode where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.
 
-* User Story: I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts ove.
+* User Story: I can win the game by getting a series of 20 steps correct. I am notified of my victory, then the game starts over.
 
 
 ## Result
